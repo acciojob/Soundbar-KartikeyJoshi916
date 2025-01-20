@@ -1,1 +1,16 @@
 /*  your css code here. If applicable */
+body{
+	margin:0;
+	padding:10px;
+	background-color:mediumpurple;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	margin-top:300px;
+}
+button{
+	background-color:rebeccapurple;
+	color:white;
+	padding:10px;
+	border-radius:5px;
+}
