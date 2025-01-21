@@ -1,16 +1,39 @@
-/*  your css code here. If applicable */
-body{
-	margin:0;
-	padding:10px;
-	background-color:mediumpurple;
-	display:flex;
-	justify-content:space-between;
-	align-items:center;
-	margin-top:300px;
+body {
+    margin: 0;
+    padding: 10px;
+    background-color: mediumpurple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
 }
-button{
-	background-color:rebeccapurple;
-	color:white;
-	padding:10px;
-	border-radius:5px;
+
+#buttons {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+button {
+    background-color: rebeccapurple;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: indigo;
+}
+
+.stop {
+    background-color: crimson;
+}
+
+.stop:hover {
+    background-color: darkred;
 }
